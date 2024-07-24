@@ -83,3 +83,15 @@ Note: Axum does not require macros for route definitions
 
 ---
 
+## Example Comparing Actix and Axum using Webhook
+
+---
+
+## Other Components to Consider/Evaluate
+
+- Postgres
+  - tokio-postgres, sqlx
+- Redis
+  - redis-rs
+- BullMQ
+  - use tokio, and redis directly
